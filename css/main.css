@@ -53,6 +53,27 @@ body{
     font-family: century;
 }
 
+.footer-copyright{
+    color: darkturquoise;
+}
+
+.corazon-footer{
+    color: red;
+    font-size: x-large;
+}
+
+
+.alias:visited{
+    color: darkorange;   
+}
+
+.alias:hover{
+    color: blueviolet;   
+}
+
+.alias:active{
+    color:  darkred;   
+}
 
 
 
