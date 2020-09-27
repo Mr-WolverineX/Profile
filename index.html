@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <!--GOOGLE FONTS tipo de letra-->
+    <!--<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap" rel="stylesheet">-->
+   
+    <!--BOOTSTRAP 4 CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  
+    <!--CUSTOM CSS diseño-->
+    <link rel="stylesheet" href="css/main.css">
+  
+    <!--LIBRERIA DE ICONOS SOCIALES-->
+    <link rel="stylesheet" href="css/bootstrap-social.css">
+  
+    <!--LIBRERIA DE ICONOS BOOTSTRAP 4-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css">
+
+</head>
+
+<body>
+
+
+
+
+    <!--NAVEGACION menu-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top"> <!--Fixed-top se agraga para que el menu se despiege cuando el usuario baja y se vea-->
+        <div class="container">  <!--Contenedor para centrear-->
+            <a class="navbar-brand" href="#">Alexander Tack</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto"> <!--Agrego ml-auto para que el menu este a la derecha-->
+                    <li class="nav-item">
+                    <a class="nav-link"href="#header">My Jobs</a>
+                    </li>
+                    <li class="nav-item">
+                    <a  class="nav-link"href="#aboutme">About me</a>
+                    </li>
+                    <li class="nav-item">
+                    <a  class="nav-link"href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>  
+        </div>
+    </nav>       
+    
+    <!--HEADEER Cabezera-->
+    <header id ="header">
+        <div class="container mt-5"> <!--Se arega mt-5 para bajar espacios y no este pegada la img. al menu -->
+            <div class="row">
+                <div class="col-md-6"> <!--Columnasde 6-->
+                    <div class="header-content-left"> <!--Lado Izquierdo-->
+                        <img src="img/imagen-1.jpg" class="img-responsive" style="width: 100%">
+
+                    </div>
+
+                </div>
+                <div class="col-md-6"><!--Columna de 6-->
+                    <div class="header-content-right"> <!--Lado derecho-->
+                        <h1 class="display-5">My Web Development Jobs</h1> 
+                        <p class="mt-5" style="text-align: justify;">I have had the opportunity to develop websites for different types of clients, all the projects I have carried out have been a challenge and at the same time a fun adventure, where every day I learn something new and put it into practice to develop my skills.</p>
+                        <a href="#" class="btn btn-outline-secondary btn-lg mt-2 header-btn">Read More</a> <!--crea un boton con animacion oscura-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </header>
+
+     <!--Frase -->
+     <section id="frase">
+         <div class="container">
+             <p class=" fraseCentral h1 ">
+                "EDUCATION is the most powerful weapon which you can use to CHANGE THE WORLD"
+            </p>
+                <p class="fraseCentral h4">
+                 Nelson Mandela
+               </p>
+         </div>
+     </section>
+
+      <!--About me -->
+      <section id="aboutme">
+          <div class="container">
+              <div class="row mt-5">
+                  <div class="col-md-6">
+                      <div class="about-me-lado-left"> <!--Lado Izquierdo-->
+                        <img src="img/imagen-2.png" class="img-responsive" style="width: 100%">
+                      </div>
+                  </div>
+                  <div class="col-md-6  my-auto" >
+                      <div class="about-me-lado-rigth">
+                          <h1 class="display 5">Who I am</h1>
+                          <p class="mt-4" style="text-align: justify;">
+                            I was born in Panama on October 26, 1988, I come from a humble and hardworking family. I have grown up with the values ​​of effort and respect for others.
+                            I graduated from the Universidad del Istmo de Panamá where I practiced my degree in system engineering with an emphasis on information security.      
+                        </p>
+                        <a href="#" class=" about-btn btn btn-outline-secondary btn-lg mt-2">Read More</a> <!--crea un boton con animacion oscura-->
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+      <!--informacion1-->
+      <section id="informacion1">
+            <div class="container">
+                <div class="Text-Price">
+                  <h1 class="display-5 text-center mb-4"> Princing</h1>
+                </div>      
+                <div class="card-deck text-center">
+
+                    <!--LEFT CONTAINER PRICE-->
+                    <div class="contenedor-left-precio col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <div class="card-header">
+                            <h4 class="my-0 font-weight-normal">WebSite With Worpress</h4>
+                        </div>
+
+                        <div class="card-body">
+                          <small class="text-muted">From/</small>
+                          <h1 class="card-title pricing-card-title">$300</h1>
+                          <ul class="list-unstyled mt-3 mb-4">
+                          <li>Manageable Web Page</li>
+                          <li>Plugins</li>
+                          <li>Responsive Desing</li>
+                          <li>Social Media Integration</li>
+                          </ul>
+                          <button type="button" onclick="location.href='#contacto'" class="btn btn-lg btn-block btn-outline-primary">Contact me</button>
+                        </div>
+                    </div>
+                    </div>
+
+                    <!--CENTER CONTAINER PRICE-->
+                    <div class="contenedor-center-precio col-md-4">
+                        <div class="card mb-4 box-shadow">
+                            <div class="card-header">
+                                <h4 class="my-0 font-weight-normal">Custom Built WebSite</h4>
+                            </div>
+                            <div class="card-body">
+                                    <small class="text-muted">From/</small>
+                                    <h1 class="card-title pricing-card-title">$800</h1>
+                                <ul class="list-unstyled mt-3 mb-4">
+                                    <li>Customizable</li>
+                                    <li>Security</li>
+                                    <li>Responsive Desing</li>
+                                    <li>Scalable, Lightweight and Optimized</li>
+                                </ul>
+                                <button  type="button" onclick="location.href='#contacto'"  class="btn btn-lg btn-block btn-outline-primary">Contact me</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--CENTER CONTAINER PRICE-->
+                    <div class="contenedor-rigth-precio col-md-4">
+                        <div class="card mb-4 box-shadow">
+                            <div class="card-header">
+                                <h4 class="my-0 font-weight-normal">Landing Page</h4>
+                            </div>
+                            <div class="card-body">
+                                    <small class="text-muted">From/</small>
+                                    <h1 class="card-title pricing-card-title">$100</h1>
+                                <ul class="list-unstyled mt-3 mb-4">
+                                    <li>Email Marketing</li>
+                                    <li>Customizable</li>
+                                    <li>Results report</li>
+                                    <li>MailRelay, Wordpress, etc</li>
+                                </ul>
+                                    <button type="button" onclick="location.href='#contacto'" class="btn btn-lg btn-block btn-outline-primary">Contact me</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+      </section>
+
+      <!--contacto-->
+      <footer id="contact">
+            <div class="container">
+                <div class="row">
+                    <!-- columna footer card form -->
+                    <div class="col-md-5">
+                        <h2 class="footer-title">Ask Me</h2>
+                        <form class="card"> <!--contenedor-->
+                            <div class="card-body">  <!--cuerpo contenedor-->
+                                <div class="form-group">
+                                    <input type="text" placeholder="Name" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" placeholder="Email" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <textarea cols="20" rows="5" placeholder="Message" class="form-control"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-outline-secondary btn-lg btn-block"k>Send</button>      
+                            </div>
+                        </form>
+                    </div>   
+                    <div class="col-md-1"></div>
+
+                    <!-- columna footer contacto -->
+                    <div class="col-md-4">
+                        <h2 class="footer-title">Contact Me</h2> 
+                        <div class="footer-contact-follow">
+                                <p>
+                                    <i class="fa fa-home mr-3"></i> Panamá, Ciudad de Panamá, PA</p>
+                                <p>
+                                    <i class="fa fa-envelope mr-3"></i> developervampire@gmail.com</p>
+                                <p>
+                                    <i class="fa fa-phone mr-3"></i> + 507 6026-6626</p>
+                        </div>
+                    </div>    
+                    <!-- columna footer iconos social-->
+                    <div class=" col-md-2"> 
+                        <h2 class="footer-title">Follow Me</h2> 
+                        <div class="footer-contact-follow">
+                            
+                            <a class="btn btn-social-icon btn-github" href="https://github.com/Mr-WolverineX">
+                                <span class = "fa fa-github"></span> 
+                            </a>     
+
+                            <a class="btn btn-social-icon btn-twitter" href="https://twitter.com/tack2426"> 
+                                <span class = "fa fa-twitter"> </span>
+                            </a>
+                            <a class="btn btn-social-icon btn-linkedin" href="https://pa.linkedin.com/in/alexander-tack-4650bb162">
+                                <span class="fa fa-linkedin"></span>
+                              </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Copyright -->
+                <div class="footer-copyright text-center py-3 mt-5">© 2020 Copyright:
+                    <a href="https://www.alexandertack.github.com"> Alexander Tack</a>
+                </div>
+
+            </div>   
+        </footer>
+
+
+
+
+
+    <!--BOOTSTRAP 4 SCRIPTS responsive-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    
+    <!--SCROOLL REVEALS JS--> 
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="js/main.js"></script>
+
+
+
+</body>
+</html>

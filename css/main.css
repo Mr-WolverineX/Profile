@@ -1,0 +1,63 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+body{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+#header{
+    margin-top: 100px;
+}
+
+
+#frase{
+    background: #f1f1f1; /*color*/
+    padding: 60px 0 50px 0; /*espacio al rededor del parrafo, palabra o img*/
+    text-align: center; /*aliniado*/
+    margin-top: 50px;
+    
+}
+
+
+#informacion1{
+    color: black;
+    background: white;
+    padding: 50px 0 50px 0;
+    text-align: justify;
+    margin-top: 50px;
+}
+
+
+
+#contact{
+    color: white;
+    background: black;
+    padding: 50px 0 50px 0;
+
+}
+
+
+.footer-contact-follow{
+    
+    padding: 5px 0 0 0;
+    text-align: left;
+           
+}
+
+
+.footer-title{
+    text-align: justify;
+   /* padding: 0 0 0 50px;*/
+    font-family: century;
+}
+
+
+
+
+
+
+
+
+
